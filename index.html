@@ -1,10 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src="https://unpkg.com/@popperjs/core@2"></script>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link href="style.css" rel="stylesheet">
 </head>
 <body>
-<p>test</p>
-<p>test</p>
+
+    <nav>
+        <p>Tick Tac Toe</p>
+        <ul>
+            <li><a href="index.html">Reset Game</a></li>
+            <li><a href="index.html">Gameplay</a>
+                <ul>
+                    <li><a href="index.html">Play robot </a></li>
+                    <li><a href="index.html">Play human</a></li>
+                </ul>
+            </li>
+            <li><a href="index.html">Credits</a></li>
+            <li><a href="leaderboard.html">Leaderboards</a></li>
+        </ul>
+    </nav>
+    
+<!-- <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Playing Options
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="#">Player vs. Player</a>
+      <a class="dropdown-item" href="#">Player vs. Computer</a>
+    </div> -->
+    <select>
+        <option value="volvo">Player vs. Player</option>
+        <option value="saab">Player vs. Computer</option>
+      </select>
+      <br>
+      <br>
+      <button id="start-play">Play!</button>
+<br>
+<br>
+<div class="container-fluid">
+    
+    <div class="row">
+      <div class="col border border-dark tile">
+            <!-- <div class="tile">
+
+            </div> -->
+      </div>
+      <div class="col border border-dark tile"></div>
+      <div class="col border border-dark"></div>
+    </div>
+    <div class="row">
+      <div class="col border border-dark tile"></div>
+      <div class="col border border-dark tile"></div>
+      <div class="col border border-dark tile"></div>
+    </div>
+    <div class="row">
+      <div class="col border border-dark tile"></div>
+      <div class="col border border-dark tile"></div>
+      <div class="col border border-dark tile"></div>
+    </div>
+
+</div>
 </body>
 </html>
