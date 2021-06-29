@@ -5,13 +5,11 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 body {
     background-color:wheat;
     background-size: cover;
-
 }
 
 nav {
@@ -19,8 +17,6 @@ nav {
     height: 60px;
     background-color: white;
     padding: 0px 20px;
-
-
 }
 
 nav p {
@@ -40,8 +36,6 @@ nav ul li {
     float: left;
     list-style: none;
     position: relative;
-
-
 }
 
 nav ul li a {
@@ -63,13 +57,11 @@ nav ul li ul {
 }
 nav ul li:hover ul {
     display: block;
-    
 }
 
 nav ul li ul li {
     width: 180px;
     border-radius:4px;
-
 }
 nav ul li ul li a {
     padding: 12px 14px;
