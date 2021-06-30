@@ -5,13 +5,19 @@
 * {
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
 }
 
 body {
     background-color:wheat;
     background-size: cover;
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
 }
 
 nav {
@@ -19,8 +25,11 @@ nav {
     height: 60px;
     background-color: white;
     padding: 0px 20px;
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> main
 }
 
 nav p {
@@ -40,8 +49,11 @@ nav ul li {
     float: left;
     list-style: none;
     position: relative;
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> main
 }
 
 nav ul li a {
@@ -63,13 +75,19 @@ nav ul li ul {
 }
 nav ul li:hover ul {
     display: block;
+<<<<<<< HEAD
     
+=======
+>>>>>>> main
 }
 
 nav ul li ul li {
     width: 180px;
     border-radius:4px;
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
 }
 nav ul li ul li a {
     padding: 12px 14px;
