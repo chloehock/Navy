@@ -1,3 +1,4 @@
+var startplay;
 function gameStart() {
     document.getElementById("box1").disabled = false;
     document.getElementById("box2").disabled = false;
@@ -10,7 +11,6 @@ function gameStart() {
     document.getElementById("box9").disabled = false;
 }
 function clicks() {
-
     
     var box1, box1, box3, box4, box5, box6, box7, box8, box9;
     box1 = document.getElementById("box1").value;
@@ -26,7 +26,6 @@ function clicks() {
     var counter2 = 0;
     var score1 = document.getElementById("score1");
     var score2 = document.getElementById("score2");
-    
 
     if ((box1 == 'X') && (box2 == 'X') && (box3 == 'X')) {
         document.getElementById('print').innerHTML = "Player X won";
@@ -42,7 +41,9 @@ function clicks() {
         document.getElementById("box8").disabled = true;
         document.getElementById("box9").disabled = true;
         window.alert('Player X won');
+        startplay = document.getElementById("start-play").disabled = true;
     }
+
     else if ((box1 == 'X') && (box4 == 'X') && (box7 == 'X')) {
         document.getElementById('print').innerHTML = "Player X won";
         counter1++;
@@ -58,6 +59,8 @@ function clicks() {
         document.getElementById("box9").disabled = true;
 
         window.alert('Player X won');
+        startplay = document.getElementById("start-play").disabled = true;
+
     }
     else if ((box7 == 'X') && (box8 == 'X') && (box9 == 'X')) {
         document.getElementById('print').innerHTML = "Player X won";
@@ -73,6 +76,7 @@ function clicks() {
         document.getElementById("box8").disabled = true;
         document.getElementById("box9").disabled = true;
         window.alert('Player X won');
+        startplay = document.getElementById("start-play").disabled = true;
     }
     else if ((box3 == 'X') && (box6 == 'X') && (box9 == 'X')) {
         document.getElementById('print').innerHTML = "Player X won";
@@ -88,6 +92,7 @@ function clicks() {
         document.getElementById("box8").disabled = true;
         document.getElementById("box9").disabled = true;
         window.alert('Player X won');
+        startplay = document.getElementById("start-play").disabled = true;
     }
     else if ((box1 == 'X') && (box5 == 'X') && (box9 == 'X')) {
         document.getElementById('print').innerHTML = "Player X won";
@@ -103,6 +108,7 @@ function clicks() {
         document.getElementById("box8").disabled = true;
         document.getElementById("box9").disabled = true;
         window.alert('Player X won');
+        startplay = document.getElementById("start-play").disabled = true;
     }
     else if ((box3 == 'X') && (box5 == 'X') && (box7 == 'X')) {
         document.getElementById('print').innerHTML = "Player X won";
@@ -118,6 +124,7 @@ function clicks() {
         document.getElementById("box8").disabled = true;
         document.getElementById("box9").disabled = true;
         window.alert('Player X won');
+        startplay = document.getElementById("start-play").disabled = true;
     }
     else if ((box2 == 'X') && (box5 == 'X') && (box8 == 'X')) {
         document.getElementById('print').innerHTML = "Player X won";
@@ -133,6 +140,7 @@ function clicks() {
         document.getElementById("box8").disabled = true;
         document.getElementById("box9").disabled = true;
         window.alert('Player X won');
+        startplay = document.getElementById("start-play").disabled = true;
     }
     else if ((box4 == 'X') && (box5 == 'X') && (box6 == 'X')) {
         document.getElementById('print').innerHTML = "Player X won";
@@ -148,6 +156,7 @@ function clicks() {
         document.getElementById("box8").disabled = true;
         document.getElementById("box9").disabled = true;
         window.alert('Player X won');
+        startplay = document.getElementById("start-play").disabled = true;
     }
 
 
@@ -165,6 +174,7 @@ function clicks() {
         document.getElementById("box8").disabled = true;
         document.getElementById("box9").disabled = true;
         window.alert('Player 0 won');
+        startplay = document.getElementById("start-play").disabled = true;
     }
     else if ((box1 == '0') && (box4 == '0') && (box7 == '0')) {
         document.getElementById('print').innerHTML = "Player 0 won";
@@ -180,6 +190,7 @@ function clicks() {
         document.getElementById("box8").disabled = true;
         document.getElementById("box9").disabled = true;
         window.alert('Player 0 won');
+        startplay = document.getElementById("start-play").disabled = true;
     }
     else if ((box7 == '0') && (box8 == '0') && (box9 == '0')) {
         document.getElementById('print').innerHTML = "Player 0 won";
@@ -195,6 +206,7 @@ function clicks() {
         document.getElementById("box8").disabled = true;
         document.getElementById("box9").disabled = true;
         window.alert('Player 0 won');
+        startplay = document.getElementById("start-play").disabled = true;
     }
     else if ((box3 == '0') && (box6 == '0') && (box9 == '0')) {
         document.getElementById('print').innerHTML = "Player 0 won";
@@ -210,6 +222,7 @@ function clicks() {
         document.getElementById("box8").disabled = true;
         document.getElementById("box9").disabled = true;
         window.alert('Player 0 won');
+        startplay = document.getElementById("start-play").disabled = true;
     }
     else if ((box1 == '0') && (box5 == '0') && (box9 == '0')) {
         document.getElementById('print').innerHTML = "Player 0 won";
@@ -225,6 +238,7 @@ function clicks() {
         document.getElementById("box8").disabled = true;
         document.getElementById("box9").disabled = true;
         window.alert('Player 0 won');
+        startplay = document.getElementById("start-play").disabled = true;
     }
     else if ((box3 == '0') && (box5 == '0') && (box7 == '0')) {
         document.getElementById('print').innerHTML = "Player 0 won";
@@ -240,6 +254,7 @@ function clicks() {
         document.getElementById("box8").disabled = true;
         document.getElementById("box9").disabled = true;
         window.alert('Player 0 won');
+        startplay = document.getElementById("start-play").disabled = true;
     }
     else if ((box2 == '0') && (box5 == '0') && (box8 == '0')) {
         document.getElementById('print').innerHTML = "Player 0 won";
@@ -255,6 +270,7 @@ function clicks() {
         document.getElementById("box8").disabled = true;
         document.getElementById("box9").disabled = true;
         window.alert('Player 0 won');
+        startplay = document.getElementById("start-play").disabled = true;
     }
     else if ((box4 == '0') && (box5 == '0') && (box6 == '0')) {
         document.getElementById('print').innerHTML = "Player 0 won";
@@ -270,6 +286,7 @@ function clicks() {
         document.getElementById("box8").disabled = true;
         document.getElementById("box9").disabled = true;
         window.alert('Player 0 won');
+        startplay = document.getElementById("start-play").disabled = true;
     }
 
 
@@ -281,7 +298,8 @@ function clicks() {
         box8 == '0') && (box9 == 'X' || box9 == '0')) {
             document.getElementById('print').innerHTML = "Match Tie";
             window.alert('Match Tie');
-    }
+            startplay = document.getElementById("start-play").disabled = true;
+      }
     else {
 
         
@@ -315,6 +333,7 @@ function reset() {
     document.getElementById("box7").disabled = false;
     document.getElementById("box8").disabled = false;
     document.getElementById("box9").disabled = false;
+    startplay = document.getElementById("start-play").disabled = false;
 }
 
 turncheck = 1;
