@@ -344,7 +344,7 @@ function box1T() {
         turncheck = 0;
     }
     else {
-        document.getElementById("box1").value = "0";
+        document.getElementById("box1").value = "O";
         document.getElementById("box1").disabled = true;
         turncheck = 1;
     }
@@ -357,7 +357,7 @@ function box2T() {
         turncheck = 0;
     }
     else {
-        document.getElementById("box2").value = "0";
+        document.getElementById("box2").value = "O";
         document.getElementById("box2").disabled = true;
         turncheck = 1;
     }
@@ -370,7 +370,7 @@ function box3T() {
         turncheck = 0;
     }
     else {
-        document.getElementById("box3").value = "0";
+        document.getElementById("box3").value = "O";
         document.getElementById("box3").disabled = true;
         turncheck = 1;
     }
@@ -383,7 +383,7 @@ function box4T() {
         turncheck = 0;
     }
     else {
-        document.getElementById("box4").value = "0";
+        document.getElementById("box4").value = "O";
         document.getElementById("box4").disabled = true;
         turncheck = 1;
     }
@@ -396,7 +396,7 @@ function box5T() {
         turncheck = 0;
     }
     else {
-        document.getElementById("box5").value = "0";
+        document.getElementById("box5").value = "O";
         document.getElementById("box5").disabled = true;
         turncheck = 1;
     }
@@ -409,7 +409,7 @@ function box6T() {
         turncheck = 0;
     }
     else {
-        document.getElementById("box6").value = "0";
+        document.getElementById("box6").value = "O";
         document.getElementById("box6").disabled = true;
         turncheck = 1;
     }
@@ -422,7 +422,7 @@ function box7T() {
         turncheck = 0;
     }
     else {
-        document.getElementById("box7").value = "0";
+        document.getElementById("box7").value = "O";
         document.getElementById("box7").disabled = true;
         turncheck = 1;
     }
@@ -435,7 +435,7 @@ function box8T() {
         turncheck = 0;
     }
     else {
-        document.getElementById("box8").value = "0";
+        document.getElementById("box8").value = "O";
         document.getElementById("box8").disabled = true;
         turncheck = 1;
     }
@@ -448,7 +448,7 @@ function box9T() {
         turncheck = 0;
     }
     else {
-        document.getElementById("box9").value = "0";
+        document.getElementById("box9").value = "O";
         document.getElementById("box9").disabled = true;
         turncheck = 1;
     }
