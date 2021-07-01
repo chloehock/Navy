@@ -26,7 +26,6 @@ function clicks() {
     var counter2 = 0;
     var score1 = document.getElementById("score1");
     var score2 = document.getElementById("score2");
-    
 
     if ((box1 == 'X') && (box2 == 'X') && (box3 == 'X')) {
         document.getElementById('print').innerHTML = "Player X won";
@@ -44,6 +43,7 @@ function clicks() {
         window.alert('Player X won');
         startplay = document.getElementById("start-play").disabled = true;
     }
+
     else if ((box1 == 'X') && (box4 == 'X') && (box7 == 'X')) {
         document.getElementById('print').innerHTML = "Player X won";
         counter1++;
